@@ -7,8 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@solana/wallet-adapter-base": "0.8.1",
+    "@solana/wallet-adapter-vue": "0.4.4",
+    "@solana/wallet-adapter-vue-ui": "0.2.3",
+    "@solana/wallet-adapter-wallets": "0.13.0",
+    "@solana/web3.js": "^1.31.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.2.25"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
